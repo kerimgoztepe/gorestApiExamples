@@ -20,7 +20,7 @@ public class GoRestGetTest extends TestBase {
     @Test
     public void getSingleServicesInfo() {
         Response response = given()
-                .pathParam("id",3814)
+                .pathParam("id",9)
                 .when()
                 .get("{id}");
         response.then().statusCode(200);
