@@ -21,7 +21,7 @@ public class GoRestPatchTest extends TestBase {
         Response response = given()
                 .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer 65cbc4c43040ae97eb012d87fb6bb928809feb842bfeba5ea49b2969ea92ede6")
-                .pathParam("id", 13393)
+                .pathParam("id", 9)
                 .body(updatePojo)
                 .when()
                 .patch("/{id}");
